@@ -1,0 +1,96 @@
+
+
+#counter {
+	color: #C88545;
+	/*background-color: #e6ccff;*/
+	float: center;
+	font-family: 'Codystar', cursive;
+	font-size: 58px;
+	text-align: center;
+	font-weight: bold;
+	margin: 30px auto;
+	border-radius: 25px;
+	padding: 20px;
+	letter-spacing: -2px;
+	font-weight: bold;
+	background: rgba(0, 0, 0, .5);
+	width: 90%;
+}
+
+h1 {
+	text-align: center;
+	/*background-color: #e6ccff;*/
+	color: white;
+	font-family: 'Chonburi', cursive;
+	letter-spacing: -5px;
+	font-size: 72px;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	border-radius: 25px;
+	padding-top: 20px;
+}
+
+#wrapper {
+	background: url(phoenix2.jpg);
+	background-size: cover;
+	opacity: 20%;
+	box-shadow: 2px 2px 1px #aaa;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 15px;
+	padding: 100px;
+	padding-bottom: 200px;
+}
+
+audio {
+	display: none;
+}
+
+p.mainscreen {
+	text-align: center;
+	font-family: 'Shrikhand', cursive;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 15px;
+	margin: 0;
+	padding-bottom: 75px;
+}
+
+#quicklinks1 {
+	font-family: arial;
+	color: grey;
+	background-color: white;
+	float: left;
+	width: 33.33%;
+}
+
+a {
+	font-size: 32px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+button {
+	font-size: 30px;
+	font-family: arial;
+	color: black;
+	font-weight: bold;
+	background-color: #BA5C0B;
+	border-radius: 50px;
+	color: white;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+button:hover {
+	background-color: #C9CACE;
+}
+
+footer {
+	text-align: center;
+	color: grey;
+	margin-top: 150px;
+}
