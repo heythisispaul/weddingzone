@@ -1,8 +1,32 @@
+/*nav bar*/
+#nav {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
 
+#nav a {
+	float: left;
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 15px;
+	padding-right: 30px;
+	font-family: 'Chonburi', cursive; /*Links in external google fonts*/
+	text-decoration: none;
+	font-size: 1.2em;
+	color: white;
+}
 
-#counter {
+#nav a:hover {/* Changes the color and font style when mouse hovers over nav links*/
 	color: #C88545;
-	/*background-color: #e6ccff;*/
+	font-style: italic;
+}
+
+#counter { /*All styles applied to the countdown on the home page*/
+	color: #C88545;
 	float: center;
 	font-family: 'Codystar', cursive;
 	font-size: 58px;
@@ -17,9 +41,10 @@
 	width: 90%;
 }
 
+/*Pulls in google fonts sets up colors, margins, and padding for headings*/
+
 h1 {
 	text-align: center;
-	/*background-color: #e6ccff;*/
 	color: white;
 	font-family: 'Chonburi', cursive;
 	letter-spacing: -5px;
@@ -30,7 +55,20 @@ h1 {
 	padding-top: 20px;
 }
 
-#wrapper {
+h2 {
+	color: white;
+	font-family: 'Chonburi', cursive;
+	font-size: 2em;
+	margin: 0;
+}
+
+h3 {
+	font-family: 'Chonburi', cursive;
+	color: #333;
+}
+
+#wrapper {/* Sets up the size of the wrapper where the content is displayed. Also displays the background image. */
+	margin-top: 70px;
 	background: url(phoenix2.jpg);
 	background-size: cover;
 	opacity: 20%;
@@ -41,9 +79,10 @@ h1 {
 	border-radius: 15px;
 	padding: 100px;
 	padding-bottom: 200px;
+	padding-top: 50px;
 }
 
-audio {
+audio { /*Hides the audio element and only pulls from the button*/
 	display: none;
 }
 
@@ -56,14 +95,6 @@ p.mainscreen {
 	padding: 15px;
 	margin: 0;
 	padding-bottom: 75px;
-}
-
-#quicklinks1 {
-	font-family: arial;
-	color: grey;
-	background-color: white;
-	float: left;
-	width: 33.33%;
 }
 
 a {
@@ -93,4 +124,91 @@ footer {
 	text-align: center;
 	color: grey;
 	margin-top: 150px;
+}
+
+
+/*Boxes holding content*/
+
+#contentBox {
+	background-color: white;
+	color: #333;
+	width: 100%;
+	border-radius: 25px;
+	padding: 20px;
+	margin: 15px auto;
+	overflow: auto; /*Allows for floated objects to stay in this parent element.*/
+}
+
+p {
+	font-family: georgia;
+	line-height: 1.5em;
+}
+
+/*Table settings*/
+
+table {
+	border-color: #333;
+	border: solid 1px;
+	border-collapse: collapse;
+	margin: 10px auto;
+}
+
+td, /*displays the border between cells and spaces out the cells.*/
+th {
+	padding: 10px;
+	border-color: #333;
+	border: solid 1px;
+	text-align: center;
+}
+
+/*images*/
+
+#chapel {
+	height: 200px;
+	width: 150px;
+	float: left;
+	margin: 10px;
+	width: 20%;
+}
+
+#AZHS {
+	width: 25%;
+	float: left;
+	margin: 10px;
+}
+
+p.whereText {
+	float: left;
+	width: 70%;
+	font-family: georgia;
+	line-height: 1.5em;
+}
+
+/*RSVP form*/
+
+form {
+	display: inline-block;
+	font-family: georgia;
+	color: #333;
+}
+
+label {
+	float: left;
+	display: block;
+	width: 8em;
+	padding-right: 1em;
+}
+
+input {
+	display: block;
+	margin-bottom: 1em;
+}
+
+textarea { /*Brings the text area box in line for the form*/
+	display: block;
+	margin-bottom: 1em;
+}
+
+#mySubmit {
+	margin: 10px;
 }

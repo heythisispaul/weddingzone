@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Michelle&Paul :: RSVP</title>
+	<link rel="stylesheet" type="text/css" href="countdown.css">
+	<link href="https://fonts.googleapis.com/css?family=Chonburi|Codystar|Roboto+Mono|Shrikhand" rel="stylesheet">
+	<script type="text/javascript" src="countdown.js"></script>
+</head>
+<body>
+	<div id="nav">
+		<a href="index.html">Home</a>
+		<a href="when.html">When</a>
+		<a href="where.html">Where</a>
+		<a href="details.html">Details</a>
+		<a href="rsvp.html">RSVP</a>
+	</div>
+	<div id="wrapper">
+		<h2>RSVP</h2>
+		<div id="contentBox">
+			<h3>RSVP Now</h3>
+			<h3>We'll start getting things ready for you</h3>
+			<p>Required information is marked with an asterisk (*)</p>
+			<form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+				<label for="myFName">*First Name:</label>
+					<input type="text" name="myFName" id="myFName" required>
+				<label for="myLName">*Last Name:</label>
+					<input type="text" name="myLName" id="myLName" required>
+				<label for="myEmail">*E-mail:</label>
+					<input type="email" name="myEmail" id="myEmail" required>
+				<label for="myPhone">Phone:</label>
+					<input type="tel" name="myPhone" id="myPhone">
+				<label for="myComments">*Comments:</label>
+					<textarea name="myComments" rows="2" cols="20" id="myComments" required></textarea>
+				<label for="myFood">*Chicken or Salmon:</label>
+					<input type="text">
+				<input type="button" name="mySubmit" value="Submit" id="mySubmit" onclick="rsvp()">
+			</form>
+		</div>
+	<!--<p id="quicklinks1"><a href="https://www.brophyprep.org/page/about/we-are-brophy/brophy-chapel"> ceremony </a></p>
+	<p id="quicklinks1"><a href="http://www.arizonahistoricalsociety.org/museums/tempe/"> reception </a></p>
+	<p id="quicklinks1"><a href="https://www.crateandbarrel.com/"> gifts </a></p>-->
+	</div>
+	<footer>
+		<p>For Michelle, 2017</p>
+	</footer>
+</body>
+</html>

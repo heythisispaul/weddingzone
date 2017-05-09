@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Michelle&Paul :: Where</title>
+	<link rel="stylesheet" type="text/css" href="countdown.css">
+	<link href="https://fonts.googleapis.com/css?family=Chonburi|Codystar|Roboto+Mono|Shrikhand" rel="stylesheet">
+	<script type="text/javascript" src="countdown.js"></script>
+</head>
+<body>
+	<div id="nav">
+		<a href="index.html">Home</a>
+		<a href="when.html">When</a>
+		<a href="where.html">Where</a>
+		<a href="details.html">Details</a>
+		<a href="rsvp.html">RSVP</a>
+	</div>
+	<div id="wrapper">
+		<h2>Where</h2>
+		<div id="contentBox">
+			<h3>Ceremony</h3>
+			<img src="chapel.jpg" id="chapel" alt="Brophy Chapel" usemap="#chapelMap"> <!-- Pulls in the picture of the chapel. Provides the alt text and ID to apply CSS as well -->
+			<map name="chapelMap"> <!-- image map begins -->
+				<!-- This first area shape covers the tower. It is a rectangle with the two opposite points being in the coords below -->
+				<area shape="rect" coords="40,20,120,150" href="https://www.brophyprep.org/page/about/we-are-brophy/brophy-chapel">
+				<!-- This one covers the rest of the building. Same deal - provides link to google maps and is a rectangle as well -->
+				<area shape="rect" coords="125,70,200,200" href="https://www.google.com/maps/place/Brophy+Chapel/@33.5051471,-112.0746701,17z/data=!3m1!4b1!4m5!3m4!1s0x872b12eb26ef2645:0x104d95ec859f3416!8m2!3d33.5051471!4d-112.0724814">
+			</map>
+			<p class="whereText">The ceremony it to take place at Brophy Chapel, in Phoenix, AZ. My Alma Mater and conveniently located in central Phoenix. If you want more information, click the tower, if you need directions, click the rest of the building. Come on over and it'll be great.</p>
+		</div>
+		<div id="contentBox">
+			<h3>Reception</h3>
+			<p class="whereText">The reception is taking place at the Arizona Historical Society. Tucked away in the papago mountains, it's a nice little scenic area. It's about a 15 - 20 minute drive from the chapel, so please keep that in mind the day of. The reception will take place outside in a central courtyard, however there are contingency plans in case the weather decides not to cooperate with our love. Click the image for more information.</p>
+			<a href="http://www.arizonahistoricalsociety.org/"><img src="AZS.jpg" alt="Arizona Historical Society" id="AZHS"> </a> <!-- Pulls in map of AZHS. Also make it a link to their website. -->
+		</div>
+	<!--<p id="quicklinks1"><a href="https://www.brophyprep.org/page/about/we-are-brophy/brophy-chapel"> ceremony </a></p>
+	<p id="quicklinks1"><a href="http://www.arizonahistoricalsociety.org/museums/tempe/"> reception </a></p>
+	<p id="quicklinks1"><a href="https://www.crateandbarrel.com/"> gifts </a></p>-->
+	</div>
+	<footer>
+		<p>For Michelle, 2017</p>
+	</footer>
+</body>
+</html>
